@@ -49,7 +49,7 @@ export default {
     transpile: [/^element-ui/],
     extend(config, { isDev }) {
       // 修改输出路径
-      config.output.publicPath = './_nuxt/' // 注意以斜杠开头和结尾
+      config.output.publicPath = '/mediaBeer/doc/_nuxt/' // 注意以斜杠开头和结尾
 
       // 添加其他自定义 webpack 配置
     }
