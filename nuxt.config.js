@@ -5,9 +5,9 @@ export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
-  generate: {
-    dir: 'doc', // 这里设置您希望的目录名称
-  },
+  // generate: {
+  //   dir: 'doc', // 这里设置您希望的目录名称
+  // },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -48,7 +48,7 @@ export default {
   ],
 
   router: {
-    // base: process.env.NODE_ENV === 'dev' ? '/' : './'
+    base: '/mediaBeer/'
   },
   alias: {
     // 例如，设置一个别名 'images' 指向项目中的 assets/images 目录
